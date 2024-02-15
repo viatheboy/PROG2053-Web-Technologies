@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+          Oppg1 Uke 35
+        </title>
+    </head>
+    <body>
+        <form action="https://www.somewhereonthenet.net"
+              method="get">
+              <fieldset>
+                <legend>Your Details:</legend>
+                <label">Name:</label>
+                <input name="name" type="text" size="30"><br>
+                <label>Email:</label>
+                <input name="email" type="text" size="30"><br>
+              </fieldset>
+              <br>
+
+              <fieldset>
+                <legend>Your Review:</legend>
+                <p>How did you hear about us?
+                <select name="websites">
+                  <option value="Google">Google</option>
+                  <option value="Friend">Friend</option>
+                  <option value="Advert">Advert</option>
+                  <option value="Other">Other</option>
+                </select>
+                </p>
+                <p>Would you visit again?<br>
+                <input type="radio" name="revisit" value="yes" /> Yes
+                <input type="radio" name="revisit" value="no" /> No
+                <input type="radio" name="revisit" value="maybe" /> Maybe
+                </p>
+                <p>Comments:<br>
+                  <textarea name="comments" cols="40" rows="4"></textarea>
+                </p>
+                <input type="checkbox" name="updates">
+                  Sign me up for email updates
+                  <br>
+                  <input type="submit" value="Submit review">
+              </fieldset>
+        </form>
+    </body>
+</html>

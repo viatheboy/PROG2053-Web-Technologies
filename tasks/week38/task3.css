@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main . aside"
+    "footer footer footer footer";
+}
+
+section * {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: tomato;
+    grid-area: header;
+}
+
+main {
+    background-color: skyblue;
+    grid-area: main;
+}
+
+aside {
+    background-color: rgb(236, 109, 109);
+    grid-area: aside;
+}
+
+footer {
+    background-color: greenyellow;
+    grid-area: footer;
+}

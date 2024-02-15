@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3dddd;
+    font-size: 90%;
+}
+
+h1 {
+    color: rgb(91, 90, 90);
+    margin-bottom: 10px;
+}
+
+
+p.intro {
+    color: grey;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-image: url(images/pngwing.com.png);
+}
+
+li {
+    margin: 10px 0px 0px 0px;
+    line-height: 1.5em;
+    width: 500px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+tr.tablehead th {
+    background-color: rgba(33, 136, 195, 0.789);
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+th, td {
+    border-spacing: 0px;
+    padding: 8px 8px 8px 8px;
+    font-size: 90%;
+    border-top: 1px solid rgba(148, 184, 205, 0.731);
+    border-right: 1px solid rgba(33, 136, 195, 0.278);
+    border-bottom: 1px solid rgba(33, 136, 195, 0.278);
+    background-color: rgba(33, 136, 195, 0.271);
+}
+
+tr.even {
+    background-color: rgba(33, 136, 195, 0.185);
+}
+
+tr.tablehead th:first-child {
+    border-top-left-radius: 5px;
+}
+
+tr.tablehead th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.input {
+    float: left;
+    width: 10em;
+}
+
+fieldset {
+    width: 300px;
+    background-color: rgb(242, 241, 239);
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid black;
+}
+input[type="text"]:active {
+    border: 1px solid black;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #dfe3e6;
+    border: 1px solid #999999;
+}
+
+.submit {
+    width: 325px;
+}
+
+input[type="submit"] {
+    float: right;
+    background-color: #009966;
+    color: #ffffff;
+    border: 1px solid #006633;
+    border-radius: 5px;;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}

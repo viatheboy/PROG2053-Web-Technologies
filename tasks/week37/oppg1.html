@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oppg1 - Lists, Tables and Forms</title>
+        <link rel="stylesheet" href="oppg1.css" type="text/css">
+    </head>
+    <body>
+        <h1>Poetry Workshops</h1>
+        <p class="intro">We will be conducting a number of poetry workshops and symposiums throughout </p>
+        <p class="intro">Please note that the following events are free to members:</p>
+        
+        <ul>
+            <li>A Poetic Perspective</li>
+            <li>Walt Whitman at War</li>
+            <li>Found Poems and Outsider Poetry</li>
+        </ul>
+
+        <table>
+            <tbody>
+                <tr class="tablehead">
+                    <th></th>
+                    <th scope="col">New York</th>
+                    <th scope="col">Chicago</th>
+                    <th scope="col">San Francisco</th>
+                </tr>
+                <tr>
+                    <th>A Poetic Perspective</th>
+                    <td>Sat, 4 Feb 2012<br>11am - 2pm</td>
+                    <td>Sat, 3 Mar 2012<br>11am - 2pm</td>
+                    <td>Sat, 17 Mar 2012<br>11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Walt Whitman at War</th>
+                    <td>Sat, 7 Apr 2012<br>11am - 1pm</td>
+                    <td>Sat, 5 May 2012<br>11am - 1pm</td>
+                    <td>Sat, 19 May 2012<br>11am - 1pm</td>
+                </tr>
+                <tr>
+                    <th>Found Poems and Outsider Poetry</th>
+                    <td>Sat, 9 Hun 2012<br>11am - 2pm</td>
+                    <td>Sat, 7 Jul 2012<br>11am - 2pm</td>
+                    <td>Sat, 21 Jul 2012<br>11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Natural Death: An Exploration</th>
+                    <td>Sat, 4 Aug 2012<br>11am - 4pm</td>
+                    <td>Sat, 8 Sep 2012<br>11am - 4pm</td>
+                    <td>Sat, 15 Sep 2012<br>11am - 4pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="">
+            <fieldset>
+                <legend>Register your interest</legend>
+                <p>
+                    <div>
+                        <label class="input">Your name: </label>
+                        <input type="text" name="name" size="15" maxlength="30">
+                    </div>
+                    <div>
+                        <label class="input">Your email:</label>
+                        <input type="text" name="email" size="15" maxlength="30">
+                    </div>
+                </p>
+                <p>
+                    <label for="" class="input">Closest call center:</label>
+                    <select name="devices" >
+                        <option value="New York">New York</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="San Francisco">San Francisco</option>
+                    </select>
+                </p>
+                <span class="input">Are you a member?</span>
+                <label for="">
+                    <input type="radio" name="Yes" id="">Yes
+                </label>
+                <label for="">
+                    <input type="radio" name="No">No
+                </label>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </body>
+</html>

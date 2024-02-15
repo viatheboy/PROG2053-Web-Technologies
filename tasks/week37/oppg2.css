@@ -1,0 +1,95 @@
+body {
+    background: url(images/bg.jpg);
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+
+.nav {
+    float:right;
+    text-align: right;
+    padding: 45px 0px 0px 0px;
+    width: 540px;
+}
+
+a {
+    color: #b5c1ad;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255 255 255);
+}
+
+h1 {
+    margin-top: 140px;
+}
+
+h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+p {
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 50;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.logo {
+    text-align: left;
+    display: inline;
+    float: left;
+    padding-top: 45px;
+}
+
+.content {
+    background-image: url(images/bg-triangle.png);
+    background-repeat: no-repeat;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main_story {
+    background-image: url(images/triangles.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: 122px 142px;
+}
+
+.articles {
+    border-top: 2px solid rgb(193, 183, 183);
+}
+
+.articles p {
+    border-bottom: 1px solid #807c72;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    font-size: 70%;
+    text-align: right;
+    background-color: rgba(0,0,0,0.2);
+    padding: 5px 10px;
+}
+
+.intro {
+    clear: left;
+}
+
+.date {
+    font-size: 70%;
+    color: #b5c1ad;
+}
